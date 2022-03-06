@@ -82,7 +82,7 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 100%; }
 body {
-  background-color: #292929;
+  background-color: #28203E;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -111,9 +111,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #0085FF; }
+  color: #04d361; }
 a:hover {
-  color: #0085FF; }
+  color: #04d361; }
 
 
 /* Code
@@ -173,3 +173,15 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
+
+/* Custom Scrollbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+::-webkit-scrollbar {
+  width: 8px; }
+::-webkit-scrollbar-track {
+  background: #1a1429; }
+::-webkit-scrollbar-thumb {
+  background: #8257e5;
+  border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover {
+  background: #6833e4; }
