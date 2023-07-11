@@ -237,6 +237,17 @@ button:hover,
 .button.button-telegram:focus {
   filter: brightness(90%) }
 
+/* Threads */
+.button.button-threads {
+  color: #FFFFFF;
+  background-color: #000000;
+  /* border: 1px solid #FFFFFF; */
+}
+.button.button-threads:hover,
+.button.button-threads:focus {
+  filter: brightness(90%);
+}
+
 /* TikTok */
 .button.button-tiktok {
   color: #FFFFFF;
