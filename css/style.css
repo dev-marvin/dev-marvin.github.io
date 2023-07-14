@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.spotify {
+    display: inline-block;
+    height: 140px;
+    width: 300px;
+    background-color: #000000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.spotify .playing {
+    width: 100%;
+}
